@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="398dp"
+        android:layout_height="702dp">
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="68dp"
+            tools:layout_editor_absoluteX="9dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:id="@+id/titleTV"/>
+
+        <TextView
+            android:layout_width="226dp"
+            android:layout_height="68dp"
+            tools:layout_editor_absoluteX="198dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:id="@+id/userIDTV"/>
+
+        <TextView
+            android:id="@+id/bodyTV"
+            android:layout_width="380dp"
+            android:layout_height="327dp"
+            android:text="TextView"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="117dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</androidx.cardview.widget.CardView>
